@@ -1,0 +1,7 @@
+system,target,k,min_relevance,precision_at_k,recall_at_k,mrr,source_file
+bm25_reviews,reviews,10,1,0.2933333333333333,0.9166666666666666,0.7772222222222223,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\bm25_reviews.json
+bm25_products,products,10,1,0.24666666666666665,0.9555555555555556,0.5455555555555556,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\bm25_products.json
+semantic_reviews,reviews,10,1,0.05999999999999999,0.1722222222222222,0.2074074074074074,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\semantic_reviews.json
+semantic_products,products,10,1,0.2533333333333333,0.9777777777777777,0.6555555555555556,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\semantic_products.json
+hybrid_reviews,reviews,10,1,0.2,0.6222222222222222,0.4228571428571428,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\hybrid_reviews.json
+hybrid_products,products,10,1,0.2533333333333333,0.9777777777777777,0.7444444444444444,C:\mycode\python\InformationSearch\outputs\runs\xiaomi_benchmark\benchmarks\hybrid_products.json

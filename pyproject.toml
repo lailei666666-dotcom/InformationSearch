@@ -1,0 +1,9 @@
+[project]
+name = "informationsearch"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["typer", "pandas", "pyarrow", "rank-bm25", "numpy", "faiss-cpu", "matplotlib", "scikit-learn"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

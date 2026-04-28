@@ -1,0 +1,22 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local scratch files produced by tests, doc rendering, and experiments
+.tmp/
+
+# Large generated retrieval artifacts. Rebuild them locally with scripts/build_index.
+outputs/indexes/*
+!outputs/indexes/.gitkeep
+outputs/semantic/*
+!outputs/semantic/.gitkeep
+outputs/runs/*/indexes/
+outputs/smoke/
+
+# Local environment files
+.env
+.venv/
+
+# Office temporary lock files
+~$*.docx

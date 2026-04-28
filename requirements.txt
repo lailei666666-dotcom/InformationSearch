@@ -1,0 +1,11 @@
+pytest
+PyYAML
+pydantic
+typer
+pandas
+pyarrow
+rank-bm25
+numpy
+faiss-cpu
+matplotlib
+scikit-learn

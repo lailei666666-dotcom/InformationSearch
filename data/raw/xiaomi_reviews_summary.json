@@ -1,0 +1,309 @@
+{
+  "category_counts": {
+    "键盘": 3000,
+    "台灯": 3000,
+    "耳机": 2120,
+    "笔记本": 3000,
+    "充电宝": 2072
+  },
+  "product_summaries": {
+    "19380": {
+      "category": "键盘",
+      "product_name": "小米便携双模键盘",
+      "comments_total": 79164,
+      "comments_good": 79094,
+      "default_good": 73541,
+      "satisfy_rate": "99.9"
+    },
+    "8133": {
+      "category": "键盘",
+      "product_name": "小米游戏键盘",
+      "comments_total": 20728,
+      "comments_good": 20604,
+      "default_good": 18432,
+      "satisfy_rate": "99.4"
+    },
+    "18336": {
+      "category": "键盘",
+      "product_name": "Xiaomi Pad 6/6 Pro 智能触控键盘",
+      "comments_total": 31620,
+      "comments_good": 31572,
+      "default_good": 27625,
+      "satisfy_rate": "99.8"
+    },
+    "19668": {
+      "category": "键盘",
+      "product_name": "Xiaomi Pad 6S Pro 智能触控键盘",
+      "comments_total": 53931,
+      "comments_good": 53887,
+      "default_good": 49502,
+      "satisfy_rate": "99.9"
+    },
+    "20594": {
+      "category": "键盘",
+      "product_name": "Xiaomi Pad 7/7 Pro 键盘式双面保护壳",
+      "comments_total": 86064,
+      "comments_good": 86040,
+      "default_good": 81425,
+      "satisfy_rate": "100.0"
+    },
+    "16353": {
+      "category": "键盘",
+      "product_name": "小米平板 键盘式双面保护壳 12.4",
+      "comments_total": 46293,
+      "comments_good": 46248,
+      "default_good": 41786,
+      "satisfy_rate": "99.9"
+    },
+    "3806": {
+      "category": "台灯",
+      "product_name": "米家 LED 智能台灯",
+      "comments_total": 558290,
+      "comments_good": 557776,
+      "default_good": 514497,
+      "satisfy_rate": "99.9"
+    },
+    "9743": {
+      "category": "台灯",
+      "product_name": "米家台灯1S",
+      "comments_total": 282364,
+      "comments_good": 282117,
+      "default_good": 257929,
+      "satisfy_rate": "99.9"
+    },
+    "14825": {
+      "category": "台灯",
+      "product_name": "米家智能台灯Lite",
+      "comments_total": 248326,
+      "comments_good": 248168,
+      "default_good": 229702,
+      "satisfy_rate": "99.9"
+    },
+    "18377": {
+      "category": "台灯",
+      "product_name": "米家多功能充电台灯",
+      "comments_total": 185567,
+      "comments_good": 185454,
+      "default_good": 174250,
+      "satisfy_rate": "99.9"
+    },
+    "16648": {
+      "category": "台灯",
+      "product_name": "米家台灯1S增强版 耀夜黑",
+      "comments_total": 47406,
+      "comments_good": 47384,
+      "default_good": 44316,
+      "satisfy_rate": "100.0"
+    },
+    "19858": {
+      "category": "台灯",
+      "product_name": "米家台灯2",
+      "comments_total": 297744,
+      "comments_good": 297674,
+      "default_good": 285900,
+      "satisfy_rate": "100.0"
+    },
+    "20565": {
+      "category": "台灯",
+      "product_name": "米家桌面学习灯",
+      "comments_total": 15344,
+      "comments_good": 15326,
+      "default_good": 14550,
+      "satisfy_rate": "99.9"
+    },
+    "16674": {
+      "category": "台灯",
+      "product_name": "米家台灯Pro 读写版",
+      "comments_total": 88829,
+      "comments_good": 88768,
+      "default_good": 83222,
+      "satisfy_rate": "99.9"
+    },
+    "19927": {
+      "category": "台灯",
+      "product_name": "米家台灯2 Lite",
+      "comments_total": 304346,
+      "comments_good": 304268,
+      "default_good": 291202,
+      "satisfy_rate": "100.0"
+    },
+    "20426": {
+      "category": "耳机",
+      "product_name": "REDMI Buds 6",
+      "comments_total": 756567,
+      "comments_good": 755663,
+      "default_good": 707892,
+      "satisfy_rate": "99.9"
+    },
+    "19180": {
+      "category": "耳机",
+      "product_name": "Redmi Buds 5",
+      "comments_total": 543330,
+      "comments_good": 542316,
+      "default_good": 494289,
+      "satisfy_rate": "99.8"
+    },
+    "20007": {
+      "category": "耳机",
+      "product_name": "REDMI Buds 6 活力版",
+      "comments_total": 1578006,
+      "comments_good": 1576067,
+      "default_good": 1469231,
+      "satisfy_rate": "99.9"
+    },
+    "4792": {
+      "category": "耳机",
+      "product_name": "小米圈铁耳机Pro",
+      "comments_total": 798393,
+      "comments_good": 795528,
+      "default_good": 709462,
+      "satisfy_rate": "99.6"
+    },
+    "10000179": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 14 增强版",
+      "comments_total": 53471,
+      "comments_good": 52752,
+      "default_good": 48542,
+      "satisfy_rate": "98.7"
+    },
+    "10000153": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 14 独显版",
+      "comments_total": 26117,
+      "comments_good": 25752,
+      "default_good": 23784,
+      "satisfy_rate": "98.6"
+    },
+    "10000170": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 14",
+      "comments_total": 28976,
+      "comments_good": 28584,
+      "default_good": 26428,
+      "satisfy_rate": "98.6"
+    },
+    "10000113": {
+      "category": "笔记本",
+      "product_name": "小米游戏本",
+      "comments_total": 7407,
+      "comments_good": 7251,
+      "default_good": 6247,
+      "satisfy_rate": "97.9"
+    },
+    "10000281": {
+      "category": "笔记本",
+      "product_name": "RedmiBook Pro 15",
+      "comments_total": 27161,
+      "comments_good": 26984,
+      "default_good": 21847,
+      "satisfy_rate": "99.3"
+    },
+    "19715": {
+      "category": "笔记本",
+      "product_name": "Redmi Book Pro 14",
+      "comments_total": 111014,
+      "comments_good": 110836,
+      "default_good": 99972,
+      "satisfy_rate": "99.8"
+    },
+    "14125": {
+      "category": "笔记本",
+      "product_name": "RedmiBook Pro 14 i5-H/锐炬Xe/灰",
+      "comments_total": 5209,
+      "comments_good": 5186,
+      "default_good": 4366,
+      "satisfy_rate": "99.6"
+    },
+    "10000242": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 16",
+      "comments_total": 12919,
+      "comments_good": 12818,
+      "default_good": 10560,
+      "satisfy_rate": "99.2"
+    },
+    "10000226": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 16 锐龙版",
+      "comments_total": 13433,
+      "comments_good": 13290,
+      "default_good": 11041,
+      "satisfy_rate": "98.9"
+    },
+    "12445": {
+      "category": "笔记本",
+      "product_name": "RedmiBook 16 i7 16G 512G MX350 灰",
+      "comments_total": 5378,
+      "comments_good": 5332,
+      "default_good": 4398,
+      "satisfy_rate": "99.1"
+    },
+    "10050037": {
+      "category": "笔记本",
+      "product_name": "Redmi Book 15E",
+      "comments_total": 11236,
+      "comments_good": 11122,
+      "default_good": 9394,
+      "satisfy_rate": "99.0"
+    },
+    "10000032": {
+      "category": "笔记本",
+      "product_name": "小米笔记本Air 12.5\"",
+      "comments_total": 20669,
+      "comments_good": 20471,
+      "default_good": 19383,
+      "satisfy_rate": "99.0"
+    },
+    "4580": {
+      "category": "充电宝",
+      "product_name": "小米移动电源2",
+      "comments_total": 1392920,
+      "comments_good": 1391654,
+      "default_good": 1323130,
+      "satisfy_rate": "99.9"
+    },
+    "11174": {
+      "category": "充电宝",
+      "product_name": "小米移动电源3 10000mAh 快充版",
+      "comments_total": 709126,
+      "comments_good": 706172,
+      "default_good": 592231,
+      "satisfy_rate": "99.6"
+    },
+    "7607": {
+      "category": "充电宝",
+      "product_name": "移动电源2 (5000mAh)",
+      "comments_total": 237002,
+      "comments_good": 236568,
+      "default_good": 224892,
+      "satisfy_rate": "99.8"
+    },
+    "7463": {
+      "category": "充电宝",
+      "product_name": "移动电源2（10000mAh）",
+      "comments_total": 594396,
+      "comments_good": 594389,
+      "default_good": 593982,
+      "satisfy_rate": "100.0"
+    },
+    "6802": {
+      "category": "充电宝",
+      "product_name": "移动电源2C（20000mAh）",
+      "comments_total": 491791,
+      "comments_good": 491787,
+      "default_good": 491554,
+      "satisfy_rate": "100.0"
+    },
+    "4998": {
+      "category": "充电宝",
+      "product_name": "移动电源高配版（10000mAh）",
+      "comments_total": 584681,
+      "comments_good": 583256,
+      "default_good": 547932,
+      "satisfy_rate": "99.8"
+    }
+  },
+  "requested_per_category_target": 3000,
+  "collected_total": 13192
+}

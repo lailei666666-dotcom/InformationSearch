@@ -1,0 +1,71 @@
+[
+  {
+    "product_id": "18336",
+    "product_name": "Xiaomi Pad 6/6 Pro 智能触控键盘",
+    "category": "键盘",
+    "score": 15.32292745365482,
+    "evidence": [
+      {
+        "review_id": "mi-18336-225189514",
+        "product_id": 18336,
+        "product_name": "Xiaomi Pad 6/6 Pro 智能触控键盘",
+        "category": "键盘",
+        "clean_text": "键盘不如机械键盘，但是也是适合平板的使用规则。",
+        "score": 15.32292745365482,
+        "rank": 7
+      }
+    ]
+  },
+  {
+    "product_id": "8133",
+    "product_name": "小米游戏键盘",
+    "category": "键盘",
+    "score": 14.855450914591865,
+    "evidence": [
+      {
+        "review_id": "mi-8133-159103712",
+        "product_id": 8133,
+        "product_name": "小米游戏键盘",
+        "category": "键盘",
+        "clean_text": "手感不错，类似于机械键盘。",
+        "score": 18.442399289056194,
+        "rank": 1
+      },
+      {
+        "review_id": "mi-8133-156999825",
+        "product_id": 8133,
+        "product_name": "小米游戏键盘",
+        "category": "键盘",
+        "clean_text": "不错，黑科技性价比机械键盘",
+        "score": 18.18125541981358,
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "product_id": "19380",
+    "product_name": "小米便携双模键盘",
+    "category": "键盘",
+    "score": 12.582403209447394,
+    "evidence": [
+      {
+        "review_id": "mi-19380-234280786",
+        "product_id": 19380,
+        "product_name": "小米便携双模键盘",
+        "category": "键盘",
+        "clean_text": "非常好用，用了一段时间机械键盘，还是薄膜键盘是归宿。",
+        "score": 15.50035079556423,
+        "rank": 6
+      },
+      {
+        "review_id": "mi-19380-239827356",
+        "product_id": 19380,
+        "product_name": "小米便携双模键盘",
+        "category": "键盘",
+        "clean_text": "键盘敲击起来很舒服。虽然整体很便携，但按键反而比普通机械键盘要大。很满意，希望后续能直接出键鼠套装。",
+        "score": 12.387381725045145,
+        "rank": 16
+      }
+    ]
+  }
+]

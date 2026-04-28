@@ -1,0 +1,102 @@
+{
+  "target": "reviews",
+  "k": 10,
+  "min_relevance": 1,
+  "summary": {
+    "precision_at_k": 0.05999999999999999,
+    "recall_at_k": 0.1722222222222222,
+    "mrr": 0.2074074074074074
+  },
+  "per_query": [
+    {
+      "query_id": "Q001",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q002",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q003",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q004",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q005",
+      "precision_at_k": 0.3,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "Q006",
+      "precision_at_k": 0.1,
+      "recall_at_k": 0.3333333333333333,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "Q007",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q008",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q009",
+      "precision_at_k": 0.1,
+      "recall_at_k": 0.25,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "query_id": "Q010",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q011",
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "Q012",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q013",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": "Q014",
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "Q015",
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    }
+  ]
+}

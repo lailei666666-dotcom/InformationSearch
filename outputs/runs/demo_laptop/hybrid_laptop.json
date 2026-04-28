@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": "10000170",
+    "product_name": "RedmiBook 14",
+    "category": "笔记本",
+    "score": 0.596062067018091,
+    "evidence": [
+      {
+        "review_id": "mi-10000170-200332465",
+        "product_id": 10000170,
+        "product_name": "RedmiBook 14",
+        "category": "笔记本",
+        "clean_text": "这款红米本子很好，颜值不错办公够用，之前一直用win7，还不太习惯win10，希望能用久一点！",
+        "score": 0.596062067018091,
+        "rank": 2,
+        "bm25_score": 18.103507201806348,
+        "semantic_score": 0.3719559609889984,
+        "fused_score": 0.596062067018091
+      }
+    ]
+  },
+  {
+    "product_id": "10000153",
+    "product_name": "RedmiBook 14 独显版",
+    "category": "笔记本",
+    "score": 0.4970738768931318,
+    "evidence": [
+      {
+        "review_id": "mi-10000153-159886742",
+        "product_id": 10000153,
+        "product_name": "RedmiBook 14 独显版",
+        "category": "笔记本",
+        "clean_text": "A面有点磕碰，还好不影响使用。希望没别的毛病，能永久一些",
+        "score": 0.6946407869221282,
+        "rank": 1,
+        "bm25_score": 11.140582408143004,
+        "semantic_score": 0.4830602705478668,
+        "fused_score": 0.6946407869221282
+      },
+      {
+        "review_id": "mi-10000153-201243032",
+        "product_id": 10000153,
+        "product_name": "RedmiBook 14 独显版",
+        "category": "笔记本",
+        "clean_text": "除了显示器分辨率差一点，其他还行。",
+        "score": 0.29950696686413547,
+        "rank": 9,
+        "bm25_score": 9.85422321434774,
+        "semantic_score": 0.3685992956161499,
+        "fused_score": 0.29950696686413547
+      }
+    ]
+  },
+  {
+    "product_id": "10000281",
+    "product_name": "RedmiBook Pro 15",
+    "category": "笔记本",
+    "score": 0.39331585387170076,
+    "evidence": [
+      {
+        "review_id": "mi-10000281-207442585",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "外形漂亮，喷砂手感很棒，屏幕显示效果很好，人生中的第一台电脑，选择了小米，希望能用久一点。",
+        "score": 0.5658457988570257,
+        "rank": 3,
+        "bm25_score": 19.93974698913516,
+        "semantic_score": 0.34127795696258545,
+        "fused_score": 0.5658457988570257
+      },
+      {
+        "review_id": "mi-10000281-207241748",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "A面比较一般，但是打开之后颜值还是挺高的，性能方面跑分跟小新差不了太多，5500买到就是赚到，希望小米继续努力。顺便说一句，送的鼠标电池没电，有点不爽，希望改进。",
+        "score": 0.5269240359445122,
+        "rank": 4,
+        "bm25_score": 0.0,
+        "semantic_score": 0.4428671896457672,
+        "fused_score": 0.5269240359445122
+      },
+      {
+        "review_id": "mi-10000281-207321720",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "红米这款Pro不错，专业办公无压力，音效不错。重量这方面也还行，正常携带稍微有一点重吧，得调节一下。玩CSGO的话，有点烫，散热确实是硬伤。",
+        "score": 0.2865342439501056,
+        "rank": 11,
+        "bm25_score": 0.0,
+        "semantic_score": 0.36436277627944946,
+        "fused_score": 0.2865342439501056
+      }
+    ]
+  },
+  {
+    "product_id": "9743",
+    "product_name": "米家台灯1S",
+    "category": "台灯",
+    "score": 0.32558545170965264,
+    "evidence": [
+      {
+        "review_id": "mi-9743-200128227",
+        "product_id": 9743,
+        "product_name": "米家台灯1S",
+        "category": "台灯",
+        "clean_text": "小爱同学一句开灯，多种模式选择，跟精致的一个灯，希望能用久一点",
+        "score": 0.32558545170965264,
+        "rank": 7,
+        "bm25_score": 19.236222682755177,
+        "semantic_score": 0.0,
+        "fused_score": 0.32558545170965264
+      }
+    ]
+  },
+  {
+    "product_id": "10000179",
+    "product_name": "RedmiBook 14 增强版",
+    "category": "笔记本",
+    "score": 0.25280401451988693,
+    "evidence": [
+      {
+        "review_id": "mi-10000179-200828484",
+        "product_id": 10000179,
+        "product_name": "RedmiBook 14 增强版",
+        "category": "笔记本",
+        "clean_text": "东西挺不错就是不能扩容有点难受，物流快是快就是有点暴力，希望下次换一家物流吧",
+        "score": 0.4422268132133499,
+        "rank": 5,
+        "bm25_score": 0.0,
+        "semantic_score": 0.41520750522613525,
+        "fused_score": 0.4422268132133499
+      },
+      {
+        "review_id": "mi-10000179-201929278",
+        "product_id": 10000179,
+        "product_name": "RedmiBook 14 增强版",
+        "category": "笔记本",
+        "clean_text": "买给女儿学习的，希望好用，耐用，反正我不懂得用，希望他们觉得好吧",
+        "score": 0.2724976325508291,
+        "rank": 12,
+        "bm25_score": 0.0,
+        "semantic_score": 0.35977882146835327,
+        "fused_score": 0.2724976325508291
+      },
+      {
+        "review_id": "mi-10000179-200808665",
+        "product_id": 10000179,
+        "product_name": "RedmiBook 14 增强版",
+        "category": "笔记本",
+        "clean_text": "外形漂亮，因为穷，所以选择了它，屏幕一般，性能可以，我的期望是能用十年，希望给力。",
+        "score": 0.1812209649645602,
+        "rank": 22,
+        "bm25_score": 0.0,
+        "semantic_score": 0.32997047901153564,
+        "fused_score": 0.1812209649645602
+      }
+    ]
+  }
+]

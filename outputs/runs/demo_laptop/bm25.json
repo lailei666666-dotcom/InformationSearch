@@ -1,0 +1,114 @@
+[
+  {
+    "product_id": "10000170",
+    "product_name": "RedmiBook 14",
+    "category": "笔记本",
+    "score": 18.103507201806348,
+    "evidence": [
+      {
+        "review_id": "mi-10000170-200332465",
+        "product_id": 10000170,
+        "product_name": "RedmiBook 14",
+        "category": "笔记本",
+        "clean_text": "这款红米本子很好，颜值不错办公够用，之前一直用win7，还不太习惯win10，希望能用久一点！",
+        "score": 18.103507201806348,
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "product_id": "18336",
+    "product_name": "Xiaomi Pad 6/6 Pro 智能触控键盘",
+    "category": "键盘",
+    "score": 15.690671312582607,
+    "evidence": [
+      {
+        "review_id": "mi-18336-233797874",
+        "product_id": 18336,
+        "product_name": "Xiaomi Pad 6/6 Pro 智能触控键盘",
+        "category": "键盘",
+        "clean_text": "好用滴很 出差带个平板就够了",
+        "score": 15.690671312582607,
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "product_id": "10000113",
+    "product_name": "小米游戏本",
+    "category": "笔记本",
+    "score": 15.153927067185208,
+    "evidence": [
+      {
+        "review_id": "mi-10000113-159520622",
+        "product_id": 10000113,
+        "product_name": "小米游戏本",
+        "category": "笔记本",
+        "clean_text": "用了有三四个月了 感觉还不错 散热挺快 打游戏很爽了 就是有点太大太重了 出差带着不太方便 总体来说这个价位可以了",
+        "score": 15.153927067185208,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "product_id": "9743",
+    "product_name": "米家台灯1S",
+    "category": "台灯",
+    "score": 14.545222948551459,
+    "evidence": [
+      {
+        "review_id": "mi-9743-200128227",
+        "product_id": 9743,
+        "product_name": "米家台灯1S",
+        "category": "台灯",
+        "clean_text": "小爱同学一句开灯，多种模式选择，跟精致的一个灯，希望能用久一点",
+        "score": 19.236222682755177,
+        "rank": 2
+      },
+      {
+        "review_id": "mi-9743-200685628",
+        "product_id": 9743,
+        "product_name": "米家台灯1S",
+        "category": "台灯",
+        "clean_text": "配合 小爱同学，一点问题都没有 我超爱",
+        "score": 9.85422321434774,
+        "rank": 44
+      }
+    ]
+  },
+  {
+    "product_id": "10000281",
+    "product_name": "RedmiBook Pro 15",
+    "category": "笔记本",
+    "score": 13.998549805762119,
+    "evidence": [
+      {
+        "review_id": "mi-10000281-207442585",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "外形漂亮，喷砂手感很棒，屏幕显示效果很好，人生中的第一台电脑，选择了小米，希望能用久一点。",
+        "score": 19.93974698913516,
+        "rank": 1
+      },
+      {
+        "review_id": "mi-10000281-207477569",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "整机质感真的很不错，屏幕显示效果也挺好的，不过想要续航还是开2k吧，电脑响应速度也很快，参数调教还要再给力一点！",
+        "score": 11.34633465630442,
+        "rank": 21
+      },
+      {
+        "review_id": "mi-10000281-207405403",
+        "product_id": 10000281,
+        "product_name": "RedmiBook Pro 15",
+        "category": "笔记本",
+        "clean_text": "超级清楚，真的很不错的电脑，刷新率也不错，玩个普通游戏很顺畅。超级喜欢，外观也很666，关键最好的一点就是续航很给力。音质真心不赖。",
+        "score": 10.709567771846778,
+        "rank": 30
+      }
+    ]
+  }
+]
