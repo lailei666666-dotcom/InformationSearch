@@ -20,3 +20,8 @@ outputs/smoke/
 
 # Office temporary lock files
 ~$*.docx
+
+# Root-level thesis artifacts kept out of the GitHub repository
+/面向用户需求理解的商品评论反馈语义检索增强研究-完成版.docx
+/面向用户需求理解的商品评论反馈语义检索增强研究.docx
+/面向用户需求理解的商品评论反馈语义检索增强研究参考.docx
