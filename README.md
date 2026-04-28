@@ -360,4 +360,4 @@ python scripts/build_index/build_local_semantic_index.py data/processed/xiaomi_r
 
 ## 许可证
 
-当前项目未显式声明开源许可证。如需正式开源，建议补充 `LICENSE` 文件。
+本项目使用 MIT License，详见 [LICENSE](LICENSE)。
