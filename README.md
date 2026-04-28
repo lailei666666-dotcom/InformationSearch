@@ -208,21 +208,6 @@ python scripts/run_retrieval/run_hybrid.py --query-text 宿舍晚上写论文想
 python scripts/run_retrieval/run_hybrid.py --query-text 宿舍晚上写论文想要安静一点的键盘 --bm25-index outputs/indexes/bm25_xiaomi.json --semantic-index outputs/indexes/semantic_xiaomi.json --encoder-path outputs/indexes/semantic_xiaomi_encoder.pkl --alpha 0.55 --aggregate --product-top-n 5 --evidence-top-n 3
 ```
 
-## 一键 smoke 检查
-
-如果只是想确认项目能跑通，可以执行：
-
-```bash
-python scripts/evaluate/run_smoke_pipeline.py data/processed/xiaomi_reviews_retrieval.csv --output outputs/smoke --query 静音键盘
-```
-
-该命令会：
-
-1. 读取处理好的评论数据。
-2. 构建一个 BM25 smoke 索引。
-3. 执行一次查询。
-4. 输出 smoke 结果和摘要。
-
 ## 完整 benchmark
 
 运行三套系统的完整评测：
@@ -321,44 +306,23 @@ python -m pytest -q
 119 passed
 ```
 
-## GitHub 上传说明
-
-本项目不提交运行过程产物，例如：
-
-```text
-data/processed/xiaomi_reviews_clean.csv
-data/processed/xiaomi_reviews_retrieval.csv
-outputs/indexes/semantic_xiaomi_bailian.json
-outputs/semantic/xiaomi_bailian_embeddings.jsonl
-outputs/semantic/bailian_embedding_cache.jsonl
-outputs/runs/xiaomi_benchmark/
-```
-
-这些文件都可以通过 README 中的命令重新生成，其中部分大型索引还会超过 GitHub 普通仓库的单文件大小限制。
-
-仓库只保留完成完整流程所需的源码、配置、原始数据、标注数据、测试和说明文档。
-
 ## 常见问题
 
-### 1. 为什么不把所有 outputs 都上传？
+### 1. 部分outputs 上传
 
-`outputs/` 主要是生成产物，不是源码。项目保留了生成这些文件的脚本，所以可以本地复现。
+`outputs/` 主要是生成产物，项目保留了生成这些文件的脚本。
 
-### 2. 没有 API Key 能跑吗？
+### 2. API Key 支持
 
-可以。使用本地语义编码器时不需要 API Key：
+可以不用使用百炼平台的API Key。使用本地语义编码器时不需要 API Key：
 
 ```bash
 python scripts/build_index/build_local_semantic_index.py data/processed/xiaomi_reviews_retrieval.csv outputs/indexes/semantic_xiaomi.json outputs/indexes/semantic_xiaomi_encoder.pkl
 ```
 
-### 3. 这个项目是 Web 应用吗？
+### 3. 代码阅读顺序
 
-不是。它是命令行实验平台，重点是检索算法、评测和实验复现。
-
-### 4. 新手应该从哪里开始读代码？
-
-建议按这个顺序：
+建议：
 
 1. `docs/PROJECT_REPORT.md`
 2. `data/raw/xiaomi_reviews.csv`
