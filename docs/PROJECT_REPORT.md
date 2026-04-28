@@ -45,13 +45,13 @@ flowchart LR
 | --- | --- |
 | `configs/` | 放实验配置，例如 embedding 模型、top-k、融合权重 |
 | `data/raw/` | 原始评论数据 |
-| `data/processed/` | 清洗后的数据和检索用数据 |
+| `data/processed/` | 运行预处理后生成的清洗数据和检索用数据 |
 | `data/annotations/` | 人工标注的查询、相关评论、相关商品 |
 | `src/` | 核心 Python 代码，负责检索、融合、评测、工具函数 |
 | `scripts/` | 命令行入口，负责采集、预处理、建索引、检索、评测、可视化 |
-| `outputs/` | 已生成的索引、检索结果、评测结果、图表 |
+| `outputs/` | 运行后生成的索引、检索结果、评测结果、图表 |
 | `tests/` | 自动化测试，保证项目能跑通 |
-| `docs/` | 设计文档、实施计划和本报告 |
+| `docs/` | 项目报告和说明文档 |
 
 ## 5. 核心技术
 
@@ -159,23 +159,23 @@ python scripts/visualize/make_figures.py outputs/runs/xiaomi_benchmark/tables/be
 
 ## 8. 当前实验结果怎么看
 
-现有结果在 `outputs/runs/xiaomi_benchmark/tables/benchmark_summary.csv`。它会列出 BM25、语义检索、混合检索在评论级和商品级上的表现。
+完整 benchmark 运行后，结果会出现在 `outputs/runs/xiaomi_benchmark/tables/benchmark_summary.csv`。它会列出 BM25、语义检索、混合检索在评论级和商品级上的表现。
 
-从已有结果可以粗略看出：
+从一次典型实验结果可以粗略看出：
 
 - 评论级 BM25 的关键词匹配很强。
 - 商品级语义检索和混合检索召回表现更好。
 - 混合检索在商品级 MRR 上表现突出，说明它更容易把相关商品排到前面。
 
-## 9. 项目优化后做了什么
+## 9. 仓库精简原则
 
-本次精简主要做了三件事：
+仓库只保留完成完整流程所需的材料：
 
-- 把 CSV/Parquet 读写统一到 `src/common/io_utils.py`。
-- 增加 `.gitignore`，避免缓存、临时目录、Office 锁文件污染项目。
-- 清理可再生成的 Python 缓存、pytest 缓存和大部分 `.tmp` 临时产物。
+- 源码、测试、配置、原始数据和人工标注会保留。
+- 清洗结果、索引、检索结果、评测图表等过程产物不提交。
+- 与论文生成、历史实施计划相关的临时材料不作为项目核心文件保留。
 
-这些调整不会改变检索算法和实验结果，只是让项目结构更清爽、更容易维护。
+这些取舍不会改变算法和实验流程，只是让仓库更容易阅读和复现。
 
 ## 10. 给小白的阅读顺序
 
@@ -183,7 +183,7 @@ python scripts/visualize/make_figures.py outputs/runs/xiaomi_benchmark/tables/be
 
 1. 先看本报告，理解项目在做什么。
 2. 再看 `README.md`，照着命令跑一遍。
-3. 看 `data/processed/xiaomi_reviews_retrieval.csv`，理解数据长什么样。
+3. 看 `data/raw/xiaomi_reviews.csv`，理解原始评论长什么样。
 4. 看 `src/traditional_retrieval/bm25_engine.py`，理解最简单的检索。
 5. 看 `src/semantic_retrieval/local_encoder.py` 和 `semantic_engine.py`，理解语义检索。
 6. 看 `src/hybrid_retrieval/fusion.py`，理解为什么要融合。
@@ -193,4 +193,4 @@ python scripts/visualize/make_figures.py outputs/runs/xiaomi_benchmark/tables/be
 
 - 部分历史配置和标注文件里，类别名以错码形式保存；这是已有数据资产的历史问题，不影响当前自动化测试通过。
 - 如果使用在线 embedding，需要配置 `.env` 或环境变量 `OPENAI_API_KEY`，本地语义编码则不需要外部 API。
-- 大文件主要集中在 `outputs/indexes/` 和 `outputs/semantic/`，它们是已生成的索引和 embedding 缓存，不是源码。
+- `data/processed/` 和 `outputs/` 里的内容由命令生成，不需要提前提交到仓库。

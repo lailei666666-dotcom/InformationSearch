@@ -3,25 +3,24 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Local scratch files produced by tests, doc rendering, and experiments
+# Local scratch files produced by tests and experiments
 .tmp/
 
-# Large generated retrieval artifacts. Rebuild them locally with scripts/build_index.
+# Generated data and retrieval artifacts. Rebuild them locally with scripts.
+data/processed/*.csv
+data/raw/*_summary.json
 outputs/indexes/*
 !outputs/indexes/.gitkeep
 outputs/semantic/*
 !outputs/semantic/.gitkeep
-outputs/runs/*/indexes/
+outputs/runs/*
+!outputs/runs/.gitkeep
 outputs/smoke/
 
 # Local environment files
 .env
 .venv/
 
-# Office temporary lock files
+# Office documents and temporary lock files kept out of the GitHub repository
 ~$*.docx
-
-# Root-level thesis artifacts kept out of the GitHub repository
-/面向用户需求理解的商品评论反馈语义检索增强研究-完成版.docx
-/面向用户需求理解的商品评论反馈语义检索增强研究.docx
-/面向用户需求理解的商品评论反馈语义检索增强研究参考.docx
+/*.docx

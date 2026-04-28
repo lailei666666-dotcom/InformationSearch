@@ -1,9 +1,0 @@
-{
-  "processed_path": "C:\\mycode\\python\\InformationSearch\\data\\processed\\xiaomi_reviews_clean.csv",
-  "row_count": 10495,
-  "query": "静音机械键盘",
-  "review_hit_count": 18,
-  "result_count": 3,
-  "index_path": "C:\\mycode\\python\\InformationSearch\\outputs\\runs\\xiaomi_smoke\\indexes\\bm25_smoke_index.json",
-  "results_path": "C:\\mycode\\python\\InformationSearch\\outputs\\runs\\xiaomi_smoke\\runs\\bm25_smoke_results.json"
-}

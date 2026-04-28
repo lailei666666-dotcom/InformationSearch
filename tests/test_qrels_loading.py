@@ -4,12 +4,17 @@ import pandas as pd
 import pytest
 
 from scripts.preprocess.bootstrap_annotations import bootstrap_annotation_assets
+from scripts.preprocess.clean_reviews import clean_reviews
+from scripts.preprocess.slim_reviews_for_retrieval import slim_reviews_for_retrieval
 from src.evaluation import qrels as qrels_module
 from src.evaluation.qrels import (
     load_product_qrels,
     load_query_set,
     load_review_qrels,
 )
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_query_set_covers_three_query_types() -> None:
@@ -149,8 +154,12 @@ def test_bootstrap_annotation_assets_force_copies_checked_in_assets(tmp_path: Pa
     assert (output_dir / "qrels_products.csv").read_text(encoding="utf-8") == source_product_qrels.read_text(encoding="utf-8")
 
 
-def test_checked_in_qrels_align_with_xiaomi_retrieval_dataset() -> None:
-    dataset_path = Path("C:/mycode/python/InformationSearch/data/processed/xiaomi_reviews_retrieval.csv")
+def test_checked_in_qrels_align_with_regenerated_xiaomi_retrieval_dataset(tmp_path: Path) -> None:
+    clean_path = tmp_path / "xiaomi_reviews_clean.csv"
+    dataset_path = tmp_path / "xiaomi_reviews_retrieval.csv"
+    clean_reviews(PROJECT_ROOT / "data" / "raw" / "xiaomi_reviews.csv", clean_path)
+    slim_reviews_for_retrieval(clean_path, dataset_path)
+
     dataset = pd.read_csv(dataset_path, encoding="utf-8-sig")
     review_qrels = load_review_qrels()
     product_qrels = load_product_qrels()

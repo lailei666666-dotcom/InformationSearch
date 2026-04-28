@@ -61,8 +61,8 @@ InformationSearch/
 │   ├── raw/                  # 原始评论数据
 │   ├── processed/            # 清洗后的评论数据和检索用数据
 │   └── annotations/          # 查询集、评论相关性标注、商品相关性标注
-├── docs/                     # 项目报告、设计文档、实施计划
-├── outputs/                  # 本地生成的索引、实验结果、图表
+├── docs/                     # 项目报告
+├── outputs/                  # 运行后生成的索引、实验结果、图表
 ├── scripts/
 │   ├── collect/              # 数据采集脚本
 │   ├── preprocess/           # 数据清洗和格式转换脚本
@@ -120,13 +120,19 @@ $env:OPENAI_BASE_URL="https://api.openai.com/v1"
 
 ## 数据说明
 
-核心检索数据位于：
+仓库保留原始评论数据：
+
+```text
+data/raw/xiaomi_reviews.csv
+```
+
+检索用数据由预处理命令生成到：
 
 ```text
 data/processed/xiaomi_reviews_retrieval.csv
 ```
 
-主要字段：
+生成后的主要字段：
 
 | 字段 | 含义 |
 | --- | --- |
@@ -317,23 +323,26 @@ python -m pytest -q
 
 ## GitHub 上传说明
 
-本项目包含一些本地生成的大型索引和 embedding 缓存文件，例如：
+本项目不提交运行过程产物，例如：
 
 ```text
+data/processed/xiaomi_reviews_clean.csv
+data/processed/xiaomi_reviews_retrieval.csv
 outputs/indexes/semantic_xiaomi_bailian.json
 outputs/semantic/xiaomi_bailian_embeddings.jsonl
 outputs/semantic/bailian_embedding_cache.jsonl
+outputs/runs/xiaomi_benchmark/
 ```
 
-这些文件超过 GitHub 普通仓库的单文件大小限制，不建议直接提交。
+这些文件都可以通过 README 中的命令重新生成，其中部分大型索引还会超过 GitHub 普通仓库的单文件大小限制。
 
-仓库会保留源码、配置、数据、测试、文档和可复现实验脚本；大型索引文件可以通过 README 中的建索引命令在本地重新生成。
+仓库只保留完成完整流程所需的源码、配置、原始数据、标注数据、测试和说明文档。
 
 ## 常见问题
 
 ### 1. 为什么不把所有 outputs 都上传？
 
-`outputs/` 主要是生成产物，不是源码。部分索引文件超过 100MB，GitHub 普通仓库无法直接接收。项目保留了生成这些文件的脚本，所以可以本地复现。
+`outputs/` 主要是生成产物，不是源码。项目保留了生成这些文件的脚本，所以可以本地复现。
 
 ### 2. 没有 API Key 能跑吗？
 
@@ -352,7 +361,7 @@ python scripts/build_index/build_local_semantic_index.py data/processed/xiaomi_r
 建议按这个顺序：
 
 1. `docs/PROJECT_REPORT.md`
-2. `data/processed/xiaomi_reviews_retrieval.csv`
+2. `data/raw/xiaomi_reviews.csv`
 3. `src/traditional_retrieval/bm25_engine.py`
 4. `src/semantic_retrieval/local_encoder.py`
 5. `src/hybrid_retrieval/fusion.py`

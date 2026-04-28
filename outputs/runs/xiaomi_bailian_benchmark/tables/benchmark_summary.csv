@@ -1,7 +1,0 @@
-system,target,k,min_relevance,precision_at_k,recall_at_k,mrr,source_file
-bm25_reviews,reviews,10,1,0.2933333333333333,0.9166666666666666,0.7772222222222223,outputs\runs\xiaomi_bailian_benchmark\benchmarks\bm25_reviews.json
-bm25_products,products,10,1,0.24666666666666665,0.9555555555555556,0.5455555555555556,outputs\runs\xiaomi_bailian_benchmark\benchmarks\bm25_products.json
-semantic_reviews,reviews,10,1,0.04666666666666666,0.13333333333333333,0.2335978835978836,outputs\runs\xiaomi_bailian_benchmark\benchmarks\semantic_reviews.json
-semantic_products,products,10,1,0.2533333333333333,0.9777777777777777,0.6611111111111112,outputs\runs\xiaomi_bailian_benchmark\benchmarks\semantic_products.json
-hybrid_reviews,reviews,10,1,0.22666666666666668,0.7055555555555556,0.5022222222222221,outputs\runs\xiaomi_bailian_benchmark\benchmarks\hybrid_reviews.json
-hybrid_products,products,10,1,0.2533333333333333,0.9777777777777777,0.6984126984126984,outputs\runs\xiaomi_bailian_benchmark\benchmarks\hybrid_products.json
